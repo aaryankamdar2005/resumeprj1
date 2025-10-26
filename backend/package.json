@@ -5,12 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "Resume Builder Backend API",
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "axios": "^1.12.2",
@@ -25,6 +21,7 @@
     "mongoose": "^8.9.5",
     "multer": "^1.4.5-lts.1",
     "pdf-parse": "^1.1.1",
+    "pdf2json": "^3.1.5",
     "puppeteer": "^24.26.1"
   }
 }
